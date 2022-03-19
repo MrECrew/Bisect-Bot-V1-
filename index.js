@@ -75,7 +75,7 @@ const G = new Discord.MessageEmbed()
   }
 
   
-     const badwords2 = ["fag", "faggot", "nigga", "retard", "faggy","thisisatestslur"]
+     const badwords2 = ["slurs"]
   if (badwords2.some(word => message.content.toLowerCase().includes(word))) {
     message.reply('Slur detected staff contacted <&@837773674865623090>')
   }
@@ -150,4 +150,4 @@ client.on('ready', (ready) => {
 
 
 
-client.login("ODM4MzE5NjI4OTIwMjkxMzU4.YI5X_g.O4uX5xyKSrYr9tOVNht93J3Ug3w");
+client.login("");
